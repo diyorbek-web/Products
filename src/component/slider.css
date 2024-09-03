@@ -1,0 +1,5 @@
+/* Slider tugmalarini kattaroq qilish uchun CSS */
+.slick-prev,
+.slick-next {
+  display: none;
+}
