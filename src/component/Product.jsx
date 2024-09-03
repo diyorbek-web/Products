@@ -42,7 +42,7 @@ const Product = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true, // Avtomatik aylanish
     autoplaySpeed: 1000, // 2 soniya
@@ -67,7 +67,7 @@ const Product = () => {
           {items.map((item, index) => (
             <div
               key={index}
-              className=" max-w-[300px] max-xs:max-w-[230px]  m-4 bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105"
+              className=" max-w-[250px] max-xs:max-w-[200px]  m-4 bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105"
             >
               <img
                 className="w-[200px] h-[200px] object-cover"
